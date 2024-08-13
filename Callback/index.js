@@ -45,3 +45,5 @@ operacion(2, 3, resta); //-> -1
 operacion(2, 3, multi); //-> 6
 operacion(2, 3, div); //-> 0.666667
 operacion(2, 3, poten); //-> 8
+operacion(2, 2, poten); //-> 8
+operacion(2, 1, poten); //-> 8
