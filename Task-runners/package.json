@@ -1,0 +1,20 @@
+{
+  "name": "task-runners",
+  "version": "1.0.0",
+  "description": "Ejemplos de scripts de npm",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx nodemon index.js",
+    "vaca": "cowsay Hola a todos estoy usando un script"
+  },
+  "keywords": [
+    "task-runners",
+    "npm"
+  ],
+  "author": "Pedro Talavera",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
