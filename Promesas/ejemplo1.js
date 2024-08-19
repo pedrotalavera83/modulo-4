@@ -4,7 +4,7 @@ const promesa = new Promise((resolve, reject) => {
     setTimeout(() => {
         number > 5
         ? resolve(number)
-        : reject(new Error("Menor a 5"))
+        : reject(new Error(number))
     }, 1000);
 });
 
