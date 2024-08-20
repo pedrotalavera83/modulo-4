@@ -10,6 +10,7 @@ function operacion1(numero) {
 }
 
 
+
 function operacion2(numero) {
     return new Promise ((res) =>{
         setTimeout(() => {

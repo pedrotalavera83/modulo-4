@@ -8,6 +8,7 @@ const promesa = new Promise((resolve, reject) => {
     }, 1000);
 });
 
+
 // Ejecución de la promesa
 promesa
 .then(
