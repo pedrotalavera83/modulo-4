@@ -3,8 +3,9 @@
 // - nombre
 // - género
 // - lista de capítulos donde aparece
+// - imagen del personaje
 
-// Desplegar el mensaje en consola
+// Desplegar la información usando los recursos de html y css
 
 function buscaPersonaje(numeroId) {
     fetch("https://rickandmortyapi.com/api/character/" + numeroId)
