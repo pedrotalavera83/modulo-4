@@ -42,8 +42,8 @@ function fetchPokemonData(pokemonName) {
 //Añadimos un evento al botón de búsqueda para poder hacer la petición a la api
 searchButton.addEventListener("click", () => {
     //Obtengo el nombre del pokemon del input
-    // Validación que remueve los espacios antes y al final del texto
-    //toLowerCase() 
+    //trim(): Validación que remueve los espacios sobrantes antes y al final del texto
+    //toLowerCase(): Validación para hacer la búsqueda en minúsculas independientemente de cómo lo escriba el usuario
     const pokemonName = pokemonNameInput.value.trim().toLowerCase(); 
     if (pokemonName){
         //si el usuario coloca por lo menos un caracteren el input, realizo la petición a la api
