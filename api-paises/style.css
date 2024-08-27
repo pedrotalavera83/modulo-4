@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 28px;
+    margin: 0;
+}
+
+#searchInput {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-bottom: 2px solid #007BFF;
+    margin: 20px 0;
+}
+
+#searchButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+#countryList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Espacio uniforme entre las tarjetas */
+    padding: 20px;
+}
+
+.country-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    min-height: 300px; /* Establece una altura mínima para uniformar las tarjetas */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Asegura que el contenido esté distribuido uniformemente */
+    background-color: #f9f9f9;
+    border-radius: 8px; /* Bordes redondeados para un mejor diseño */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad a las tarjetas */
+    transition: transform 0.3s; /* Añade una transición suave para el hover */
+}
+
+.country-card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el ratón por encima */
+}
+
+.country-card h2 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+.country-card h3 {
+    font-size: 16px;
+    margin: 5px 0;
+    color: #555;
+}
+
+.country-card p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #333;
+}
+
+.country-card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+}
