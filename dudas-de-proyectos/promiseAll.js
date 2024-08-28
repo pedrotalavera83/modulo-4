@@ -19,6 +19,7 @@ fetch("https://pokeapi.co/api/v2/pokemon?limit=5&offset=0")
     })
     .then(
         arrayRes => {
+            let pokemonName = "Char";//Nombre del pokemon a buscar
             arrayRes.forEach(pokemon => {
                 console.log(pokemon.name);
                 console.log(pokemon.weight);
@@ -27,7 +28,14 @@ fetch("https://pokeapi.co/api/v2/pokemon?limit=5&offset=0")
                 
                 
             });
+            let results = arrayRes.filter(pokemon =>{
+                return pokemon.name.includes(pokemonName.toLowerCase())
+            })
 
+            results.forEach(pokemon =>{
+                console.log(pokemon.name);
+                
+            })
 
         }
     )
