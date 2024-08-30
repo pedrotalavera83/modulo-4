@@ -6,36 +6,48 @@ body {
 
 header {
     background-color: #b1b6bb;
-    color: #fff;
+    color: #0e0d0d;
     text-align: center;
     padding: 20px;
 }
 
 h1 {
     font-size: 28px;
-    margin: 0;
+    margin: 10;
+    color:#333;
+}
+
+#credenciales{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    color:#333;
+}
+
+#searchButton {
+    background-color: #080808;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-size: 25px;
+}
+
+p {
+    font-size: 18px;
+    margin: 20;
     color:#333;
 }
 
 input {
-    width: 90%;
+    width: 20%;
     color:#333;
     padding: 10px;
     font-size:25px;
     border: none;
     border-bottom: 2px solid #131414;
     margin: 20px 0;
-}
-
-button {
-    padding: 20px 60px;
-    font-size: 25px;
-    background-color: white;
-    color: #333;
-    border:#131414;
-    cursor: pointer;
-    display: block;
-    margin: 20px auto;
 }
 
 main {
