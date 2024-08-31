@@ -28,7 +28,9 @@ function fetchPreguntas(numeroPreguntas, categoriaPregunta, dificultadPregunta, 
         }
         return res.json();
     })
+    
     .then(data =>{
+        console.log(data);
         contenedorPreguntas.innerHTML=''
         data.results.forEach((pregunta) => {
             const cardPregunta = document.createElement("div")
