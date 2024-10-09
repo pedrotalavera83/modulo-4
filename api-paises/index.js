@@ -108,7 +108,7 @@ searchButton.addEventListener("click", () => {
         fetchOneContry(countryName) //función que hace la solicitud a la api
     }else{
         //sino, mando una advertencia
-        countryList.textContent = "Por favor, ingresa un nombre de pokemon"
+        countryList.textContent = "Por favor, ingresa un nombre de un pais"
     }
 
     console.log(countryName);
